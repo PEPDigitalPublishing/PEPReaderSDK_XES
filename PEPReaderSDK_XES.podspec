@@ -20,9 +20,10 @@ Pod::Spec.new do |s|
   
   s.static_framework = true
   
-  s.public_header_files = 'PEPReaderSDK_XES.framework/Headers/*.h'
+  s.public_header_files = 'PEPReaderSDK_XES.framework/Headers/PEPReaderSDK.h'
   
   s.resources = ['PDFReaderSDKDiandu.xcassets', 'PEPReaderSDK_XES.framework/PEPPDFReaderSDK.bundle']
+
 
   s.frameworks   = 'MobileCoreServices', 'Security', 'CoreTelephony', 'AudioToolbox', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'AddressBook', 'CoreLocation'
 
