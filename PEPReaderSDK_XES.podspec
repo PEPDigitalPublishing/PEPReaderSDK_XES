@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = 'PEPReaderSDK_XES'
 
-  s.version      = '2.8.16'
+  s.version      = '2.8.18'
 
   s.summary      = '人教点读新SDK'
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   
   s.static_framework = true
   
-  s.public_header_files = 'PEPReaderSDK_XES.framework/Headers/PEPReaderSDK.h'
+  s.source_files = 'PEPReaderSDK_XES.framework/Headers/*.h'
   
   s.resources = ['PDFReaderSDKDiandu.xcassets', 'PEPReaderSDK_XES.framework/PEPPDFReaderSDK.bundle']
 
