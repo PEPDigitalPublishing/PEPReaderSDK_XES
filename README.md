@@ -24,7 +24,7 @@
 在`podfile`中添加如下代码，然后`pod install`:
 
 ```
-pod 'PEPReaderSDK', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK.git'
+pod 'PEPReaderSDK_XES', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_XES'
 
 pod 'FLAnimatedImage', '~> 1.0'
 
