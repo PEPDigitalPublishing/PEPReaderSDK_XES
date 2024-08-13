@@ -30,7 +30,7 @@ pod 'FLAnimatedImage', '~> 1.0'
 # 讯飞语音SDK
 pod 'PEPiFlyMSC', :git => 'https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git'
 
-    pod 'ZipArchive', '1.4.0'
+pod 'ZipArchive', '1.4.0'
 
 ```
 
@@ -149,6 +149,6 @@ done
 
 #### 5. 正在完善中...
 
-对接中出现的任何问题，欢迎随时反馈（hanhf@pep.com.cn），或者提[Issues](https://github.com/PEPDigitalPublishing/PEPReaderSDK/issues).
+对接中出现的任何问题，欢迎随时反馈
 
 
